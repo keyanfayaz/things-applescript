@@ -1,0 +1,21 @@
+# Only source, docs, workflow, and explicitly synthetic tests belong here.
+__pycache__/
+*.py[cod]
+.DS_Store
+*.scpt
+*.json
+*.jsonl
+*.csv
+*.tsv
+*.log
+*.env
+.env*
+exports/
+output/
+diagnostics/
+private/
+findings*
+cleanup-proposal*
+wrapper-diagnosis*
+.things-readonly.ini
+*.local.ini
